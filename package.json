@@ -7,6 +7,7 @@
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
     "build": "tsc",
+    "apidoc": "apidoc -o docs/",
     "lint": "eslint --fix src test",
     "test": "jest",
     "test:unit": "jest -c jest.unit.config.js"
@@ -14,9 +15,13 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/w3cj/express-api-starter.git"
+    "url": "https://github.com/mattpe/node-ci-intro"
   },
   "license": "MIT",
+  "apidoc": {
+    "title": "My API docs",
+    "url": "https://example.com/api/v1"
+  },
   "dependencies": {
     "apidoc": "^1.2.0",
     "cors": "^2.8.5",

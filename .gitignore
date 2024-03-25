@@ -73,6 +73,7 @@ typings/
 .serverless
 
 dist
+docs
 
 uploads/*
 !uploads/.gitkeep
